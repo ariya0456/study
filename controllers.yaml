@@ -1,0 +1,11 @@
+diff_drive_controller:
+  ros__parameters:
+    left_wheel_names: ["left_wheel_joint"]
+    right_wheel_names: ["right_wheel_joint"]
+    wheel_separation: 0.4
+    wheel_radius: 0.1
+
+    # PID settings to match wheel command velocities in simulation
+    gains:
+      left_wheel_joint: {p: 15.0, i: 0.5, d: 1.0}
+      right_wheel_joint: {p: 15.0, i: 0.5, d: 1.0}
